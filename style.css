@@ -1,47 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ZA:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEEEE8;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    color: #C16B62;
+    line-height: 1.6;
+}
+
 header {
-    background-color: #cc9797;
+    background-image: url("images/background.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 4px solid #C98685;
+    color: white;
 }
 
 header h1 {
     font-family: "Playwrite ZA", cursive;
-    color: #855a5a;
+    font-size: 2.5rem;
+    margin: 0;
 }
 
-body {
-    background-color: #e7c7c7;
+header p {
+    margin-top: 10px;
 }
 
-p {
-    background-color: #cc9797;
-    font-family: "Quicksand", sans-serif;
+/* NAV */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F9D3D0;
+    border: 3px solid #C98685;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.box {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F2A7A2;
+    border-left: 8px solid #C16B62;
+    border-radius: 10px;
 }
 
 h2 {
-    background-color: #855a5a;
-    font-family: "Playwrite ZA", cursive;
-    color:	#f0dbdb;
-}
-
-ol {
-    background-color: #ab7474;
-    font-family: "Quicksand", sans-serif;
-}
-
-ul {
-    background-color: #ab7474;
-    font-family: "Quicksand", sans-serif;
+    text-align: center;
 }
 
 h3 {
-    font-family: "Playwrite ZA", cursive;
+    background-color: #C98685;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
 }
 
-a {
-font-family: "Quicksand", sans-serif;
+.bold {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.image {
+    text-align: center;
+    font-size: 14px;
+}
+
+.image a {
+    color: #C16B62;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #FEEEE8;
+    border: 2px solid #C98685;
+    border-left: 8px solid #C16B62;
+    border-radius: 12px;
+    text-align: center;
+}
+
+ol, ul {
+    padding-left: 20px;
+    line-height: 1.8;
 }
 
 
+.f-section {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
 
+.video-link {
+    text-align: center;
+}
+
+.video-link a {
+    display: inline-block;
+    background-color: #C16B62;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.video-link a:hover {
+    background-color: #C98685;
+}
+
+/*  FOOTER */
 footer {
-    background-color: #ab7474;
+    text-align: center;
+    background-color: #C98685;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 3px solid #C16B62;
+    color: white;
+}
+
+footer a {
+    display: block;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* VISION BOARD PAGE */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #F9D3D0;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #C98685;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* MINDSET PAGE */
+.section-title {
+    background-color: #C98685;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.highlight-box ul li {
+    margin: 10px 0;
 }
